@@ -1,4 +1,4 @@
-# heyderebub.com
+# [heyderebub.com](https://heyderebub.com)
 
 Just started a new podcast. The website is built with [Podcast Generator](http://podcastgenerator.net)
 
