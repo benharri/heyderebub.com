@@ -1,5 +1,8 @@
 # [heyderebub.com](https://heyderebub.com)
 
+![](https://heyderebub.com/images/itunes_image.jpg)
+
+
 Just started a new podcast. The website is built with [Podcast Generator](http://podcastgenerator.net)
 
 Check us out at [heyderebub.com](https://heyderebub.com), on [Twitter](https://twitter.com/heyderebub) and on [Facebook](https://facebook.com/heyderebub). You can also [send us an email](mailto:hello@heyderebub.com).
