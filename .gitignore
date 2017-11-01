@@ -20,3 +20,4 @@ images/*
 !images/smiley_default_freebox.png
 stats/
 video/
+.goaccess.last
