@@ -1,141 +1,121 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="-----PG_PAGECHARSET-----">
+    <title>-----PG_PAGETITLE-----</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-  <meta charset="-----PG_PAGECHARSET-----">
-  <title>-----PG_PAGETITLE-----</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> -----PG_METATAGS-----
+    -----PG_METATAGS-----
 
-  <!-- Le styles -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#d9d9d9">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="theme-color" content="#d9d9d9">
+    <!-- Bootstrap core CSS -->
+    <link href="/themes/heyderebub/css/bootstrap.min.css" rel="stylesheet">
 
-  -----PG_COMMONCSSLOAD-----
+     -----PG_COMMONCSSLOAD-----
 
-  <link href="style/custom.css" rel="stylesheet">
 
-  <link href='//fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+     <!-- Custom styles for this template -->
+     <link href="/themes/heyderebub/css/jumbotron.css" rel="stylesheet">
+     <!-- <link href="/themes/heyderebub/css/custom.css" rel="stylesheet"> -->
 
-  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-  <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+     -----PG_JSLOAD-----
+  </head>
 
-  -----PG_JSLOAD-----
+  <body>
 
-</head>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container">
 
-<body>
-
-  <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container-fluid">
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </a>
-        <a class="brand" href="/">-----PG_PODCASTTITLE-----</a>
-        <div class="nav-collapse collapse">
-          <ul class="nav">
-            -----PG_MENUHOME----- -----PG_MENUARCHIVE-----
-            <li>
-              <a href="-----PG2_URLRSSFEED-----">RSS Feed</a>
+        <a class="navbar-brand" href="/"><img src="/favicon-32x32.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Archive
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="/?p=archive&cat=uncategorized">Uncategorized</a>
+                <a class="dropdown-item" href="/?p=archive&cat=all">All Episodes</a>
+              </div>
             </li>
-            <li>
-              <a href="-----PG2_URLFORITUNES-----">iTunes</a>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Podcast Places
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="https://itunes.apple.com/us/podcast/hey-dere-bub/id1303196173">iTunes</a>
+                  <a class="dropdown-item" href="https://www.stitcher.com/s?fid=156349&refid=stpr">Stitcher</a>
+                  <a href="https://playmusic.app.goo.gl/?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&apn=com.google.android.music&link=https://play.google.com/music/m/Ig7qhjb2phow4oe6uq45qxqlaxm?t%3DHey_Dere_Bub!%26pcampaignid%3DMKT-na-all-co-pr-mu-pod-16" class="dropdown-item">Google Play Music</a>
+                  <a href="http://pca.st/e0AZ" class="dropdown-item">Pocket Casts</a>
+                </div>
+              </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="-----PG2_URLRSSFEED-----">RSS Feed</a>
             </li>
-            <!--<li>
-              <p>-----PG_MENUADMIN-----</p>
-            </li>-->
-          </ul>
+            
+            
+          </div>
         </div>
-        <!--/.nav-collapse -->
-      </div>
-    </div>
-  </div>
+    </nav>
 
-  <div class="jumbotron">
-    <div class="container-fluid">
+    <main role="main">
 
-      <div class="row-fluid">
-        <div class="span12">
-
-          <h1 class="centered">-----PG_PODCASTSUBTITLE-----</h1>
-          <p class="centered">-----PG_PODCASTDESC-----</p>
-
-          <p class="centered">
-
-            <img src="/images/itunes_image.jpg" width="200px" height="200px" alt="podcast image">
-          </p>
-
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9">
+              <h1 class="display-4">-----PG_PAGETITLE-----</h1>
+              <p>Alex Shahbazi and Ben Harris talk about stuff</p>
+              <p>
+                <a class="btn btn-primary" href="https://itunes.apple.com/us/podcast/hey-dere-bub/id1303196173" role="button">Listen on iTunes &raquo;</a>
+                <a title="Subscribe on Android" href="http://subscribeonandroid.com/heyderebub.com/feed.xml"><img style="border: 0;" src="https://assets.blubrry.com/soa/BadgeLarge.png" alt="Subscribe on Android" /></a>
+            </p>
+            </div>
+            <div class="col-md-3">
+              <img src="/images/itunes_image.jpg" width="200px" height="200px" alt="heyderebub logo">
+            </div>
+            
+          </div>
         </div>
-        <!-- /.span12 -->
       </div>
-      <!-- /.row -->
-    </div>
-    <!-- /.container -->
-  </div>
-  <!-- /.jumbotron -->
 
-  <div class="container mainbody">
-    <div class="row">
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          -----PG_MAINBODY-----
+        </div>
 
-      <div class="span9">
+        <hr>
+        -----PG2_ADMINRIGHTBOX-----
 
-        -----PG_MAINBODY-----
+      </div> <!-- /container -->
 
-      </div>
-      <!-- /.span9 -->
+    </main>
 
-      <div class="span3">
+    <footer class="container">
+      <strong>&copy; 2017 Ben Harris and Alex Shahbazi</strong>
+      <p class="text-muted">This site is a fork, which is maintained on <a href="https://github.com/benharri/heyderebub.com">GitHub</a> | -----PG_FOOTER-----</p>
+    </footer>
 
-        -----PG2_ADMINRIGHTBOX----- -----PG_FREEBOX-----
-
-      </div>
-      <!--/span3-->
-
-    </div>
-    <!-- /.row -->
-  </div>
-  <!-- /.container -->
-
-  <div class="container-fluid dark">
-    <div class="row-fluid">
-
-      <div class="span12">
-
-        <footer>
-          <p>This site is a fork, which I maintain on
-            <a href="https://github.com/benharri/heyderebub.com">GitHub</a>
-          </p>
-          <p>-----PG_FOOTER----- | Theme designed by
-            <a href="http://discoverrg.com/" target="_blank">RG Creative</a>
-          </p>
-        </footer>
-
-      </div>
-      <!--/.span12-->
-
-    </div>
-    <!--/.row-->
-  </div>
-  <!--/.container-fluid-->
-
-  <!-- Le javascript
+    <!-- Bootstrap core JavaScript
     ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-
-
-
-  <script src="js/bootstrap.min.js"></script>
-
-</body>
-
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="/themes/heyderebub/js/bootstrap.min.js"></script>
+  </body>
 </html>

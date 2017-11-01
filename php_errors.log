@@ -1,0 +1,10 @@
+[28-Oct-2017 01:43:57 UTC] PHP Warning:  include(config.php): failed to open stream: No such file or directory in C:\Users\ben\workspace\heyderebub.com\core\includes.php on line 20
+[28-Oct-2017 01:43:57 UTC] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\ben\workspace\heyderebub.com\core\includes.php on line 20
+[28-Oct-2017 01:43:57 UTC] PHP Notice:  Undefined variable: absoluteurl in C:\Users\ben\workspace\heyderebub.com\core\includes.php on line 22
+[28-Oct-2017 01:43:57 UTC] PHP Notice:  Undefined variable: absoluteurl in C:\Users\ben\workspace\heyderebub.com\core\includes.php on line 24
+[28-Oct-2017 01:43:57 UTC] PHP Notice:  Undefined variable: absoluteurl in C:\Users\ben\workspace\heyderebub.com\core\language.php on line 38
+[28-Oct-2017 01:43:57 UTC] PHP Notice:  Undefined variable: absoluteurl in C:\Users\ben\workspace\heyderebub.com\core\language.php on line 64
+[28-Oct-2017 01:43:57 UTC] PHP Warning:  include(config.php): failed to open stream: No such file or directory in C:\Users\ben\workspace\heyderebub.com\core\includes.php on line 20
+[28-Oct-2017 01:43:57 UTC] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\ben\workspace\heyderebub.com\core\includes.php on line 20
+[28-Oct-2017 01:43:57 UTC] PHP Notice:  Undefined variable: absoluteurl in C:\Users\ben\workspace\heyderebub.com\core\includes.php on line 22
+[28-Oct-2017 01:43:57 UTC] PHP Notice:  Undefined variable: absoluteurl in C:\Users\ben\workspace\heyderebub.com\core\includes.php on line 24
