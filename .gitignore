@@ -18,6 +18,7 @@ images/*
 !images/itunes_image.jpg
 
 !images/smiley_default_freebox.png
-stats/
+stats/stats.html
 video/
-.goaccess.last
+analytics/
+

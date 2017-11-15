@@ -1,0 +1,4 @@
+#!/bin/bash
+
+/bin/zcat /var/log/apache2/heyderebub.com_access.log.*.gz | /usr/local/bin/goaccess --log-format=COMBINED -f /var/log/apache2/heyderebub.com_access.log -f /var/log/apache2/heyderebub.com_access.log.1 -o /var/www/heyderebub.com/public_html/stats/stats.html
+
